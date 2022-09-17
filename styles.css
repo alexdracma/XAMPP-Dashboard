@@ -1,0 +1,54 @@
+*  {
+    box-sizing: border-box;
+}
+i {
+    color: #790252;
+    margin-right: 3%;
+    position: relative;
+    top: 0.3rem;
+}
+
+.link {
+    text-decoration: none;
+    width: 100%;
+    color: #AF0171;
+    position: relative;
+    bottom: 1px;
+}
+
+a:hover, i:hover {
+    color: #4C0033;
+}
+
+td {
+    border: 1px solid #4C0033;
+    background-color: #FFF5E4 !important;
+    height: 3.76rem;
+    max-height: 3.76rem !important;
+}
+
+.table {
+    margin-bottom: 0px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #FFF5E4 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #888 !important; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: RGB(128,128,128); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: RGB(128,128,128);
+  }

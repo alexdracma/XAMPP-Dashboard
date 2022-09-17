@@ -1,0 +1,60 @@
+body {
+    background-color: #ECC5FB;
+    min-height: 500px !important;
+    overflow: scroll;
+}
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+    color: #790252;
+    font-family: 'Poppins', sans-serif;
+}
+
+.htdocs {
+    position: absolute;
+    bottom: 4vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tabla {
+    width: 70vw;
+    height: 70vh;
+    margin: 0;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -49%);
+    border: 4px dashed #4C0033;
+}
+
+.btn-primary {
+    background-color: #790252;
+    color: #FFF5E4;
+    border-color: #4C0033;
+}
+
+.btn-primary:hover {
+    background-color: #4C0033;
+    border-color: #3c0128;
+}
+
+/* width */
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: RGB(128,128,128); 
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: RGB(128,128,128);
+  }
